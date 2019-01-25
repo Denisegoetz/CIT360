@@ -15,7 +15,9 @@ public	class DoTask implements Runnable {
 	    		System.out.println("<" + id + "> doing work for you.." + count.getAndDecrement());
 	    		
 	    		try {
-//					Thread.sleep(500);
+//					Thread.sleep(500);	    			
+// I changed this to use a random number generator for sleep. 
+// You have to cast it to a long because Math.random uses a Double.
 					Thread.sleep((long)(Math.random() * 1000));
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
