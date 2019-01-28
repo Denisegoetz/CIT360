@@ -13,7 +13,7 @@ public class AppointmentView extends JFrame{
 	// It performs no calculations, but instead passes
 	// information entered by the user to whomever needs
 	// it. 
-	
+	 
 	//JLabel stands for Label, JTextField is an input text field, JButton is a button
     private JLabel       dNameLabel   = new JLabel("Your Dog's Name");
 	private JTextField      dogName   = new JTextField(10);

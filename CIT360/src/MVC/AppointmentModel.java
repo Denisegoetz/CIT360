@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class AppointmentModel {
 	
-
+ 
 	
 // Create empty map object called userCityMapping
 	Map<String, String> customerDogMapping = new HashMap<>();

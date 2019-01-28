@@ -6,7 +6,7 @@ public class Appointment {
 
 	
 	public static void main(String[] args) {
-		
+		 
 		
         AppointmentView theView = new AppointmentView();
         

@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 
 public class AppointmentController {
 
-	
+	 
     private AppointmentView theView;
 	private AppointmentModel theModel;
 	
