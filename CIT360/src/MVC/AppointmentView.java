@@ -22,7 +22,7 @@ public class AppointmentView extends JFrame{
 	private JTextField customerNumber = new JTextField(10);
 	private JButton     enterButton   = new JButton("Press Enter");
 		
-	AppointmentView(){
+	public AppointmentView(){
 			
 	// Sets up the view and adds the components
 		
@@ -35,6 +35,7 @@ public class AppointmentView extends JFrame{
 		//This shows on the screen this the order you put it
 		// GridBag is a way of laying out your screen.  Its like a grid with x,y axis. 
 		// I have used it to control where the fields are laid out.
+		//**********************************************************************************
 		GridBagConstraints gridCon = new GridBagConstraints();
 		apptPanel.add(dNameLabel);
 		gridCon.gridx = 0;

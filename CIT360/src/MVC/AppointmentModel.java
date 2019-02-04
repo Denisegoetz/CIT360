@@ -8,12 +8,15 @@ import java.util.Random;
 public class AppointmentModel {
 	
  
+//******************************************************
+// Create empty map object called customerDogMapping
+//******************************************************
 	
-// Create empty map object called userCityMapping
 	Map<String, String> customerDogMapping = new HashMap<>();
-	
+//***********************************************************************************************************	
 // This method takes in two parameters dogName & customerName and stores it into HashMap dogName,CustomerName
 // Currently this is called from the controller
+//***********************************************************************************************************
     public void saveCustomerInfo(String dogName, String customerName) {
     // put elements into the HashMap - (Key, Value)
      customerDogMapping.put(dogName, customerName);
@@ -22,7 +25,9 @@ public class AppointmentModel {
      	System.out.println(m.getKey() +"  "+ m.getValue() ); 
       };
     }
-
+//***********************************************************************************************//
+// This creates a customer number. I used a random one because I didn't want to start with one.
+//***********************************************************************************************//
     public int createCustomerNumber() {
     	Random random = new Random();
     	int number = 0;

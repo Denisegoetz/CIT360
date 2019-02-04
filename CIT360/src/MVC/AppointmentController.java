@@ -17,6 +17,7 @@ public class AppointmentController {
 		
 		this.theView.addEnterListener(new EnterListener());
 	}
+	
 
 	class EnterListener implements ActionListener{
 
@@ -33,7 +34,7 @@ public class AppointmentController {
                  }
                  	
                 else {
-                   //Learning: You don't have to run the method getDogName and then put it into an intermediary variable.
+                   //LEARNING: You don't have to run the method getDogName and then put it into an intermediary variable.
                    //You can just use the method and it will substitute in the value, which will be passed.
                     theModel.saveCustomerInfo(theView.getDogName(),theView.getCustomerName());
                     theView.setCustomerNumber(theModel.createCustomerNumber());
