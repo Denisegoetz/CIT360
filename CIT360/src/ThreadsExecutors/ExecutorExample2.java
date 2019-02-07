@@ -26,7 +26,7 @@ public class ExecutorExample2 {
             return "Result of Task3 from a Callable!  This is from a Future!";
         };
 
-        // Returns the result of the fastest callable. (Hense coming from the Future!)
+        // Returns the result of the fastest callable. (Hence coming from the Future!)
         
 		try {
 			result = executorService.invokeAny(Arrays.asList(task1, task2, task3));

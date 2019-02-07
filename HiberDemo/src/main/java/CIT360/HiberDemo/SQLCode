@@ -1,0 +1,23 @@
+
+// This is a table I created
+
+Use CIT360_Test;
+
+DROP TABLE customer;
+CREATE TABLE customer (
+   customer_id     INT   NOT NULL,
+   customer_Fname  CHAR(15), 
+   customer_Lname  CHAR(15),
+   KEY       (customer_id));
+DESC customer;
+ALTER TABLE `CIT360_Test`.`customer` 
+ADD PRIMARY KEY (`customer_id`);
+DESC customer;
+
+INSERT into customer values (1000,'Susan','Lucci');
+INSERT into customer values (1001,'Kelly','Ripa');
+INSERT into customer values (1002,'Michael','Strahan');
+INSERT into customer values (1003,'George', 'Stephanopoulos');
+INSERT into customer values (1004,'Elvis', 'Presley');
+
+SELECT * from customer;
