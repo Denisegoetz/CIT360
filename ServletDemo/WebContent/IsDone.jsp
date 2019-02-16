@@ -11,10 +11,10 @@
    
     <%
       //Session ID & Done parameter.
-      String sessionId = session.getId();
-      out.println("THIS SESSION ID: " + sessionId);
-      String done =(String)(session.getAttribute("Done"));
-      out.println("Value of Done: " + done);
+//       String sessionId = session.getId();
+//       out.println("THIS SESSION ID: " + sessionId);
+//       String done =(String)(session.getAttribute("Done"));
+//       out.println("Value of Done: " + done);
      
     //This is  clearing the cache and deleting the session.
      response.setHeader("Cache-Control","no-cache");
@@ -29,7 +29,7 @@
                                                                       //you to another URL of your choice. 
 	%>
 
-    <h2>Redirecting you to Google in 8 seconds....</h2>
+    <h2>Redirecting you to Google in 5 seconds....</h2>
     <h4>Goodbye</h4>
 	
 </body>
